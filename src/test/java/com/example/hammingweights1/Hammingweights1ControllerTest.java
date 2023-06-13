@@ -6,8 +6,10 @@ package com.example.hammingweights1;
 
 class Hammingweights1ControllerTest {
 
+    private Hammingweights1Controller hammingWeight = new Hammingweights1Controller();
+
     @Test
-    public void testHammingWeight() {
+    public void HammingWeightTest() {
         Hammingweights1Controller.defaultwebseite controller = new Hammingweights1Controller().new defaultwebseite();
 
         // Test case 1: n = 11 (binary: 1011), expected result: 3
