@@ -3,6 +3,7 @@ package com.example.hammingweights1;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+// taken from: <github.com/surajr/CodingInterview/blob/master/java/hammingWeight.java>
 @RestController
 public class Hammingweights1Controller {
 
